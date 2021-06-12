@@ -3,7 +3,7 @@
 
 ## Timeline
 - ### [Day 1 - Arrays](Day%201%20-%20Arrays/)
- - [ ]Implement an automatically resizing vector in :
+ - [ ] Implement an automatically resizing vector in :
  	- [ ] C++
  	- [ ] Java
  	- [ ] Python
