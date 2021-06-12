@@ -2,11 +2,11 @@
 > This is just my archive repository where I practice coding custom vector classes and other more data structure using this [study plan](https://github.com/jwasham/coding-interview-university).
 
 ## Timeline
-- ### Day 1 - Arrays
-Implement an automatically resizing vector in :
- - [ ] C++
- - [ ] Java
- - [ ] Python
+- ### [Day 1 - Arrays](Day%201%20-%20Arrays/)
+ - [ ]Implement an automatically resizing vector in :
+ 	- [ ] C++
+ 	- [ ] Java
+ 	- [ ] Python
 
 ## Data Structures
 
