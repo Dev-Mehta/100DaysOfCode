@@ -7,6 +7,11 @@
  	- [x] C++
  	- [x] Java
  	- [x] Python
+ - ### [Day 2 - Linked Lists](Day%202%20-%20-Linked%20Lists/)
+  - [x] Implement the linked lists with given requirements in:
+    - [x] C++
+    - [ ] Java
+    - [ ] Python
 
 ## Data Structures
 
@@ -33,3 +38,19 @@
     - [x] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+- ### Linked Lists
+    - [x] Implement (I did with tail pointer & without):
+        - [x] size() - returns number of data elements in list
+        - [x] empty() - bool returns true if empty
+        - [x] value_at(index) - returns the value of the nth item (starting at 0 for first)
+        - [x] push_front(value) - adds an item to the front of the list
+        - [x] pop_front() - remove front item and return its value
+        - [x] push_back(value) - adds an item at the end
+        - [x] pop_back() - removes end item and returns its value
+        - [x] front() - get value of front item
+        - [x] back() - get value of end item
+        - [x] insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+        - [x] erase(index) - removes node at given index
+        - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+        - [x] reverse() - reverses the list
+        - [x] remove_value(value) - removes the first item in the list with this value

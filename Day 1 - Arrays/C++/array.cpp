@@ -173,3 +173,8 @@ template<typename T> class Array{
 			}
 		}
 };
+
+int main(){
+	Array<int> array;
+	return 0;
+}
