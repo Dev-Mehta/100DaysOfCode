@@ -7,7 +7,7 @@
  	- [x] C++
  	- [x] Java
  	- [x] Python
- - ### [Day 2 - Linked Lists](Day%202%20-%20-Linked%20Lists/)
+ - ### [Day 2 - Linked Lists](Day%202%20-%20Linked%20Lists/)
   - [x] Implement the linked lists with given requirements in:
     - [x] C++
     - [ ] Java
