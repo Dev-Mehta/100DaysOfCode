@@ -35,12 +35,21 @@ template <typename T> class LinkedList {
 		LinkedList(){
 			element_count = 0;
 		}
+		/**
+		 * @return Return the size of array
+		*/
 		int size() {
 			return element_count;
 		}
+		/**
+		 * @return Whether the array is empty or not
+		*/
 		bool empty() {
 			return element_count == 0;
 		}
+		/**
+		 * @param value Value to insert at front of linked list
+		*/
 		void push_front(T value) {
 			struct Node<T> *new_node = new Node<T>();
 			new_node->data = value;
@@ -48,6 +57,9 @@ template <typename T> class LinkedList {
 			head = new_node;
 			element_count++;
 		}
+		/**
+		 * @param value Value to insert at back of linked list
+		*/
 		void push_back(T value) {
 			struct Node<T> *new_node = new Node<T>();
 			new_node->data = value;
@@ -64,6 +76,9 @@ template <typename T> class LinkedList {
 			temp->next = new_node;
 			element_count++;
 		}
+		/**
+		 * @return Removes the first element of linked list and return it
+		*/
 		T pop_front() {
 			if(empty()) {
 				cout << "Underflow" << endl;
@@ -76,6 +91,9 @@ template <typename T> class LinkedList {
 			element_count--;
 			return data;
 		}
+		/**
+		 * @return Removes the last element of list and returns it
+		*/
 		T pop_back() {
 			if (empty()) {
 				cout << "Underflow" << endl;
@@ -104,6 +122,9 @@ template <typename T> class LinkedList {
 				return data;
 			}
 		}
+		/**
+		 * @return Return the first element of list
+		*/
 		T front() {
 			if(empty()) {
 				cout << "Underflow" << endl;
@@ -111,6 +132,9 @@ template <typename T> class LinkedList {
 			}
 			return head->data;
 		}
+		/**
+		 * @return Return the last element of list
+		*/
 		T back() {
 			if(empty()) {
 				cout << "Underflow" << endl;
@@ -122,6 +146,10 @@ template <typename T> class LinkedList {
 			}
 			return temp->data;
 		}
+		/**
+		 * @param index The position to insert the element
+		 * @param value The value to insert at the given index
+		*/
 		void insert(int index, T value){
 			if (head == NULL || index > element_count - 1 || index < 0){
 				return;
@@ -148,6 +176,9 @@ template <typename T> class LinkedList {
 			c->next=n;
 			element_count++;
 		}
+		/**
+		 * @param index The position of element to erase
+		*/
 		void erase(int index) {
 			if (head == NULL || index > element_count - 1 || index < 0) {
 				return;
@@ -170,6 +201,10 @@ template <typename T> class LinkedList {
 				element_count--;
 			}
 		}
+		/**
+		 * @param index The position of nth element to fetch from end
+		 * @return Returns the nth element from back
+		*/
 		T value_n_from_end(int index) {
 			struct Node<T> *main_ptr = head;
 			struct Node<T> *ref_ptr = head;
@@ -187,6 +222,9 @@ template <typename T> class LinkedList {
 			}
 			return main_ptr -> data;
 		}
+		/**
+		 * @param value Value to search and remove
+		*/
 		void remove_value(T value){
 			if(empty()){
 				return;
@@ -202,6 +240,9 @@ template <typename T> class LinkedList {
 				temp = temp->next;
 			}
 		}
+		/**
+		 * To print the whole linked list
+		*/
 		void print(){
 			if(empty()){
 				cout << "Underflow";
@@ -213,7 +254,9 @@ template <typename T> class LinkedList {
 				temp = temp->next;
 			}
 		}
-
+		/**
+		 * @param headRev To reverse the linked list from given node
+		*/
 		Node<T>* reverseFromHead(Node<T> *headRev){
 			if(headRev == NULL || headRev->next == NULL){
 				return headRev;
@@ -223,11 +266,15 @@ template <typename T> class LinkedList {
 			headRev->next = NULL;
 			return rest;
 		}
+		/**
+		 * Method to reverse the complete linked list
+		*/
 		void reverse(){
 			head = reverseFromHead(head);
 		}
 };
 
+// Driver Code
 int main(){
 	LinkedList<int> linked_list;
 	cout << "Empty: " << linked_list.empty() << endl;
