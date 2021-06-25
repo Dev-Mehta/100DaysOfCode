@@ -10,8 +10,8 @@
  - ### [Day 2 - Linked Lists](Day%202%20-%20Linked%20Lists/)
   - [x] Implement the linked lists with given requirements in:
     - [x] C++
-    - [x] Java
-    - [x] Python
+    - [] Java
+    - [] Python
 - ###  [Day 3 - Queues](Day%203%20-%20Queues/)
   - [x] Implement the queue with given requirements in:
     - [x] C++
