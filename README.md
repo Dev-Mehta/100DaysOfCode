@@ -12,7 +12,7 @@
     - [x] C++
     - [x] Java
     - [x] Python
-- ###  [Day 3 - Queues](Day%203%20-%20-Queues/)
+- ###  [Day 3 - Queues](Day%203%20-%20Queues/)
   - [x] Implement the queue with given requirements in:
     - [x] C++
 ## Data Structures
