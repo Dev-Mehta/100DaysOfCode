@@ -10,9 +10,11 @@
  - ### [Day 2 - Linked Lists](Day%202%20-%20Linked%20Lists/)
   - [x] Implement the linked lists with given requirements in:
     - [x] C++
-    - [ ] Java
-    - [ ] Python
-
+    - [x] Java
+    - [x] Python
+- ###  [Day 3 - Queues](Day%203%20-%20-Queues/)
+  - [x] Implement the queue with given requirements in:
+    - [x] C++
 ## Data Structures
 
 - ### Arrays
@@ -38,6 +40,7 @@
     - [x] Space
         - contiguous in memory, so proximity helps performance
         - space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+
 - ### Linked Lists
     - [x] Implement (I did with tail pointer & without):
         - [x] size() - returns number of data elements in list
@@ -54,3 +57,22 @@
         - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [x] reverse() - reverses the list
         - [x] remove_value(value) - removes the first item in the list with this value
+
+- ### Queue
+    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] Implement using linked-list, with tail pointer:
+        - enqueue(value) - adds value at position at tail
+        - dequeue() - returns value and removes least recently added element (front)
+        - empty()
+    - [x] Implement using fixed-sized array:
+        - enqueue(value) - adds item at end of available storage
+        - dequeue() - returns value and removes least recently added element
+        - empty()
+        - full()
+    - [x] Cost:
+        - a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
+            because you'd need the next to last element, causing a full traversal each dequeue
+        - enqueue: O(1) (amortized, linked list and array [probing])
+        - dequeue: O(1) (linked list and array)
+        - empty: O(1) (linked list and array)
