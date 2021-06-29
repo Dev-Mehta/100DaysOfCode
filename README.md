@@ -3,21 +3,34 @@
 
 ## Timeline
 - ### [Day 1 - Arrays](Day%201%20-%20Arrays/)
- - [x] Implement an automatically resizing vector in :
- 	- [x] C++
- 	- [x] Java
- 	- [x] Python
+    - [x] Implement an automatically resizing vector in :
+ 	    - [x] C++
+ 	    - [x] Java
+ 	    - [x] Python
  - ### [Day 2 - Linked Lists](Day%202%20-%20Linked%20Lists/)
-  - [x] Implement the linked lists with given requirements in:
-    - [x] C++
-    - [ ] Java
-    - [ ] Python
+     - [x] Implement the linked lists with given requirements in:
+        - [x] C++
+        - [ ] Java
+        - [ ] Python
 - ###  [Day 3 - Queues](Day%203%20-%20Queues/)
-  - [x] Implement the queue with given requirements in:
-    - [x] C++
+    - [x] Implement the queue with given requirements in:
+        - [x] C++
 - ### [Day 4 - Hash Tables](Day%204%20-%20Hash%20Tables/)
-  - [x] Implement the hash table with given requirements in:
+    - [x] Implement the hash table with given requirements in:
+        - [x] C++
+- ### [Day 5 - Binary Search](Day%205%20-%20Binary%20Search/)
+  - [x] Implement binary search with and without recursion in:
     - [x] C++
+
+## What have I learned till now :man_technologist::rocket:
+
+- [Arrays](#arrays)
+- [Linked Lists](#linked-lists)
+- [Queue](#queue)
+- [Hash Table](#hash-table)
+- [Binary Search](#binary-search)
+- [Bitwise Operations](#bitwise-operations)
+
 ## Data Structures
 
 - ### Arrays
@@ -102,3 +115,34 @@
         - exists(key)
         - get(key)
         - remove(key)
+
+ - ### Binary Search
+    Implement binary search with and without recursion in:
+    - [x] C++
+
+ - ### Bitwise Operations
+    - [x] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+        
+    - [x] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
+        - [x] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
+        - [x] Good intro: [Bit Manipulation (video)](https://www.youtube.com/watch?v=7jkIUgLC29I)
+        - [x] [C Programming Tutorial 2-10: Bitwise Operators (video)](https://www.youtube.com/watch?v=d0AwjSpNXR0)
+        - [x] [Bit Manipulation](https://en.wikipedia.org/wiki/Bit_manipulation)
+        - [x] [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+        - [x] [Bithacks](https://graphics.stanford.edu/~seander/bithacks.html)
+        - [x] [The Bit Twiddler](https://bits.stephan-brumme.com/)
+        - [x] [The Bit Twiddler Interactive](https://bits.stephan-brumme.com/interactive.html)
+        - [x] [Bit Hacks (video)](https://www.youtube.com/watch?v=ZusiKXcz_ac)
+        - [x] [Practice Operations](https://pconrad.github.io/old_pconrad_cs16/topics/bitOps/)
+    - [x] 2s and 1s complement
+        - [Binary: Plusses & Minuses (Why We Use Two's Complement) (video)](https://www.youtube.com/watch?v=lKTsv6iVxV4)
+        - [1s Complement](https://en.wikipedia.org/wiki/Ones%27_complement)
+        - [2s Complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+    - [x] Count set bits
+        - [4 ways to count bits in a byte (video)](https://youtu.be/Hzuzo9NJrlc)
+        - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
+        - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
+    - [x] Swap values:
+        - [x] [Swap](https://bits.stephan-brumme.com/swap.html)
+    - [x] Absolute value:
+        - [x] [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
