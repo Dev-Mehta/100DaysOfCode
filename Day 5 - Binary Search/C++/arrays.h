@@ -12,6 +12,8 @@ Functions:
 	delete(index) - delete item at index, shifting all trailing elements left
 	remove(item) - looks for value and removes index holding it (even if in multiple places)
 	find(item) - looks for value and returns first index with that value, -1 if not found
+	overwrite(index, item) - overwrites the value at given index
+	binary_search(item)
 */
 #pragma once
 
