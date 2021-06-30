@@ -68,9 +68,7 @@ template<typename T> class Array{
 		 * @return whether the array is empty or not
 		*/
 		bool is_empty(){
-			if(current==0)
-				return true;
-			return false;	
+			return current == 0;	
 		}
 		/**
 		 * 
