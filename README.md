@@ -1,5 +1,5 @@
 # Data Structures and Algorithms Daily Practice
-> This is just my archive repository where I practice coding custom vector classes and other more data structure using this [study plan](https://github.com/jwasham/coding-interview-university).
+> This is just my archive repository where I practice coding custom vector classes and other more data structure using this [study plan](https://github.com/jwasham/coding-interview-university) :ninja::man_technologist:.
 
 ## Timeline
 - ### [Day 1 - Arrays](Day%201%20-%20Arrays/)
@@ -21,6 +21,9 @@
 - ### [Day 5 - Binary Search](Day%205%20-%20Binary%20Search/)
   - [x] Implement binary search with and without recursion in:
     - [x] C++
+- ### [Day 6 - Trees](Day%206%20-%20Trees)
+    - [x] Implement trees with given requirements in:
+        - [x] C++
 
 ## What have I learned till now :man_technologist::rocket:
 
@@ -30,6 +33,7 @@
 - [Hash Table](#hash-table)
 - [Binary Search](#binary-search)
 - [Bitwise Operations](#bitwise-operations)
+- [Trees](#trees)
 
 ## Data Structures
 
@@ -146,3 +150,17 @@
         - [x] [Swap](https://bits.stephan-brumme.com/swap.html)
     - [x] Absolute value:
         - [x] [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
+
+- ### Trees
+    - [x] Implement:
+        - [x] insert // insert value into tree
+        - [x] get_node_count // get count of values stored
+        - [x] print_values // prints the values in the tree, from min to max
+        - [x] delete_tree
+        - [x] is_in_tree // returns true if given value exists in the tree
+        - [x] get_height // returns the height in nodes (single node's height is 1)
+        - [x] get_min // returns the minimum value stored in the tree
+        - [x] get_max // returns the maximum value stored in the tree
+        - [x] is_binary_search_tree
+        - [x] delete_value
+        - [x] get_successor // returns next-highest value in tree after given value, -1 if none
